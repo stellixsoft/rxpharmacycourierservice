@@ -1,0 +1,191 @@
+/* Delivery Prices page — clearer content layout */
+#wsb-element-389791541 .txt {
+  width: 640px !important;
+  height: auto !important;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+#wsb-element-389791541 .prices-wrap {
+  height: auto !important;
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 4px 4px 12px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.prices-section {
+  margin: 0 0 16px;
+  padding: 14px 16px;
+  background: #f7f5f1;
+  border: 1px solid #d9d2c6;
+  border-radius: 4px;
+}
+
+.prices-section-title {
+  margin: 0 0 12px !important;
+  font-family: "Julius Sans One", "Avenir Next", sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #036265 !important;
+  text-align: center;
+}
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ebe6de;
+  font-family: "Source Sans 3", "Source Sans Pro", Arial, sans-serif !important;
+  font-size: 15px !important;
+  line-height: 1.35 !important;
+  color: #333 !important;
+}
+
+.price-row:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.price-name {
+  font-weight: 600;
+  color: #333 !important;
+}
+
+.price-amount {
+  font-weight: 700;
+  font-size: 16px !important;
+  color: #036265 !important;
+  white-space: nowrap;
+}
+
+.schedule-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.schedule-item {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2px;
+  padding: 10px 12px;
+  background: #fff;
+  border: 1px solid #e5dfd4;
+  border-radius: 3px;
+  font-family: "Source Sans 3", "Source Sans Pro", Arial, sans-serif !important;
+}
+
+.schedule-item.schedule-days {
+  grid-column: 1 / -1;
+}
+
+@media (max-width: 640px) {
+  .schedule-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.schedule-label {
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #036265 !important;
+}
+
+.schedule-value {
+  font-size: 14px !important;
+  color: #333 !important;
+  line-height: 1.4 !important;
+}
+
+.prices-note {
+  margin: 10px 0 0 !important;
+  font-family: "Source Sans 3", "Source Sans Pro", Arial, sans-serif !important;
+  font-size: 13px !important;
+  line-height: 1.45 !important;
+  color: #666 !important;
+  text-align: center;
+}
+
+.prices-cta {
+  margin: 0 0 16px;
+  padding: 16px 16px;
+  text-align: center;
+  background: #036265;
+  border-radius: 4px;
+  color: #fff !important;
+}
+
+.prices-cta-label {
+  margin: 0 0 6px !important;
+  font-family: "Source Sans 3", "Source Sans Pro", Arial, sans-serif !important;
+  font-size: 13px !important;
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.prices-cta-phone {
+  margin: 0 0 4px !important;
+}
+
+.prices-cta-phone a {
+  font-family: "Source Sans 3", "Source Sans Pro", Arial, sans-serif !important;
+  font-size: 22px !important;
+  font-weight: 700 !important;
+  color: #fff !important;
+  text-decoration: none !important;
+  letter-spacing: 0.02em;
+}
+
+.prices-cta-phone a:hover {
+  text-decoration: underline !important;
+}
+
+.prices-cta-sub {
+  margin: 0 !important;
+  font-family: "Source Sans 3", "Source Sans Pro", Arial, sans-serif !important;
+  font-size: 13px !important;
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.prices-info {
+  margin: 0 0 14px !important;
+  font-family: "Source Sans 3", "Source Sans Pro", Arial, sans-serif !important;
+  font-size: 14px !important;
+  line-height: 1.55 !important;
+  color: #444 !important;
+}
+
+.prices-info:last-child {
+  margin-bottom: 0 !important;
+}
+
+.payment-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin: 10px 0 12px;
+  padding: 0;
+  list-style: none;
+}
+
+.payment-list li {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid #cfc8bc;
+  border-radius: 3px;
+  background: #fff;
+  font-family: "Source Sans 3", "Source Sans Pro", Arial, sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  color: #333 !important;
+  letter-spacing: 0.02em;
+}
