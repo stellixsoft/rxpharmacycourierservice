@@ -116,12 +116,12 @@ h6,
 .editor_logo,
 .wsb-element-text .txt .editor_logo,
 .wsb-element-text .txt .editor_logo span {
-  font-size: 48px;
+  font-size: 56px;
   font-weight: 400;
   line-height: 1.15;
   text-transform: uppercase;
   color: #0d868a;
-  letter-spacing: -0.5px;
+  letter-spacing: 0.5px;
 }
 
 h1,
@@ -148,13 +148,18 @@ h3,
   line-height: 1.35;
 }
 
-/* Header tagline under logo — keep compact so it sits nearer the nav */
+/* Header tagline under logo — high visibility (heavier face + larger size) */
 .wsb-element-text .txt:has(.editor_logo) h3,
 .wsb-element-text .txt:has(.editor_logo) h3 span {
-  font-size: 22px !important;
-  line-height: 1.3 !important;
+  font-family: var(--font-body) !important;
+  font-size: 26px !important;
+  font-weight: 600 !important;
+  line-height: 1.35 !important;
   margin: 0 !important;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.06em !important;
+  color: #1f2a2a !important;
+  text-transform: uppercase;
+  -webkit-font-smoothing: antialiased;
 }
 
 h4,
@@ -169,6 +174,11 @@ h4,
 .wsb-element-navigation,
 #wsb-element-383223877 {
   overflow: visible !important;
+}
+
+/* Room for larger logo + tagline above the bar */
+#wsb-element-383223877 {
+  top: 132px !important;
 }
 
 .wsb-nav.nav_theme,
