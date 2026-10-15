@@ -165,11 +165,108 @@ h4,
   line-height: 1.35;
 }
 
-.nav_theme > ul > li > a {
-  font-size: 18px;
-  font-weight: 400;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+/* ========== Navigation — clean 2-row bar ========== */
+.wsb-element-navigation,
+#wsb-element-383223877 {
+  overflow: visible !important;
+}
+
+.wsb-nav.nav_theme,
+#wsb-nav-383223877 {
+  width: 100% !important;
+  max-width: 984px;
+  height: auto !important;
+  min-height: 0 !important;
+  box-sizing: border-box;
+  overflow: visible !important;
+}
+
+.nav_theme > ul.wsb-navigation-rendered-top-level-menu,
+.nav_theme > ul {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+  align-content: center !important;
+  width: 100% !important;
+  min-height: 112px !important;
+  margin: 0 auto !important;
+  padding: 12px 10px !important;
+  gap: 8px 0 !important;
+  list-style: none !important;
+  box-sizing: border-box;
+}
+
+.nav_theme > ul > li {
+  display: block !important;
+  width: auto !important;
+  float: none !important;
+  border: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  vertical-align: middle;
+}
+
+/* Force second row after primary links (Contact) */
+.nav_theme > ul > li.nav-flex-break {
+  flex-basis: 100% !important;
+  width: 100% !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  overflow: hidden !important;
+  pointer-events: none !important;
+  line-height: 0 !important;
+  font-size: 0 !important;
+}
+
+.nav_theme > ul > li.nav-flex-break a {
+  display: none !important;
+}
+
+.nav_theme > ul > li > a,
+.nav_theme > ul > li:hover > a,
+.nav_theme > ul > .active > a {
+  border: none !important;
+  border-right: none !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  height: auto !important;
+  min-height: 0 !important;
+  padding: 8px 14px !important;
+  margin: 1px 2px !important;
+  display: block !important;
+  position: relative !important;
+  font-family: var(--font-display) !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.06em !important;
+  text-transform: uppercase !important;
+  text-decoration: none !important;
+  color: #fff !important;
+  line-height: 1.25 !important;
+  white-space: nowrap !important;
+  border-radius: 2px;
+  background-color: transparent;
+}
+
+.nav_theme > ul > li:hover > a,
+.nav_theme > ul > .active > a,
+.nav_theme > ul > .active > a:hover {
+  color: #fff !important;
+  background-color: #0d868a !important;
+}
+
+/* Teal bar behind nav — match 2-row height, hide overflow artifacts */
+#wsb-element-383223895,
+#wsb-element-383223895 .wsb-shape {
+  overflow: hidden !important;
+}
+
+#wsb-element-383223895 .wsb-shape {
+  height: 112px !important;
 }
 
 .form-label {
@@ -255,20 +352,6 @@ h4,
   font-size: 13px !important;
 }
 
-/* Nav: slightly tighter type so multi-row menu breathes */
-.nav_theme > ul > li > a {
-  font-size: 16px;
-  line-height: 1.25;
-  padding-top: 6px;
-  padding-bottom: 6px;
-}
-
-.nav_theme .nav-subnav > li > a {
-  font-family: var(--font-display) !important;
-  font-size: 14px;
-  line-height: 1.35;
-  letter-spacing: 0.04em;
-}
 
 /* Page section titles that are light gray — improve contrast */
 .wsb-element-text .txt h1,

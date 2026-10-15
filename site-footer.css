@@ -1,0 +1,43 @@
+/* Shared site footer — same structure on every page */
+#wsb-element-383223880 {
+  z-index: 50 !important;
+  left: 0 !important;
+  width: 984px !important;
+}
+
+#wsb-element-383223880 .txt,
+div#wsb-element-383223880 > .txt {
+  width: 984px !important;
+  max-width: 984px !important;
+  height: auto !important;
+  min-height: 52px !important;
+  box-sizing: border-box !important;
+  margin: 0 !important;
+  padding: 16px 24px !important;
+  text-align: center !important;
+  background-color: #ffffff !important;
+  background: #ffffff !important;
+  border: 1px solid #cfc8bc !important;
+  box-shadow: 0 2px 8px rgba(50, 50, 50, 0.2) !important;
+}
+
+#wsb-element-383223880 .txt,
+#wsb-element-383223880 .txt p,
+#wsb-element-383223880 .txt span,
+#wsb-element-383223880 .txt * {
+  font-family: "Source Sans 3", "Source Sans Pro", "Helvetica Neue", Arial, sans-serif !important;
+  font-size: 13px !important;
+  line-height: 1.5 !important;
+  color: #333333 !important;
+}
+
+#wsb-element-383223880 .txt a {
+  color: #058488 !important;
+}
+
+.wsb-canvas-page-footer.footer {
+  min-height: 0 !important;
+  height: 0 !important;
+  overflow: visible !important;
+  border: 0 !important;
+}
