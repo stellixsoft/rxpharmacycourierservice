@@ -1,0 +1,97 @@
+/* Logistics page — present original copy more clearly (titles + spacing only) */
+
+.logistics-copy {
+  box-sizing: border-box;
+  padding: 0 4px 0 0;
+}
+
+.logistics-copy-title {
+  margin: 0 0 8px !important;
+  font-family: "Julius Sans One", "Avenir Next", sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #036265 !important;
+  line-height: 1.25 !important;
+}
+
+.logistics-copy p {
+  margin: 0 !important;
+  font-family: "Source Sans 3", "Source Sans Pro", Arial, sans-serif !important;
+  font-size: 15px !important;
+  line-height: 1.55 !important;
+  color: #333 !important;
+}
+
+/* Let titles breathe — keep original left positions, nudge rows only */
+#wsb-element-383757117 .txt,
+#wsb-element-383759434 .txt,
+#wsb-element-384102610 .txt,
+#wsb-element-384111075 .txt,
+#wsb-element-384128487 .txt {
+  height: auto !important;
+  overflow: visible !important;
+}
+
+#wsb-element-384100362 img,
+#wsb-element-383759435 img,
+#wsb-element-383706595 img,
+#wsb-element-384106922 img,
+#wsb-element-384128488 img {
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* Extra vertical room so title + original paragraphs do not collide */
+#wsb-canvas-template-page {
+  height: 1680px !important;
+}
+
+#wsb-element-383611403 .wsb-shape {
+  height: 1320px !important;
+}
+
+#wsb-element-383223880 {
+  top: 1600px !important;
+}
+
+#wsb-element-384100362 {
+  top: 275px !important;
+}
+
+#wsb-element-383757117 {
+  top: 290px !important;
+}
+
+#wsb-element-383759435 {
+  top: 540px !important;
+}
+
+#wsb-element-383759434 {
+  top: 544px !important;
+}
+
+#wsb-element-383706595 {
+  top: 800px !important;
+}
+
+#wsb-element-384102610 {
+  top: 774px !important;
+}
+
+#wsb-element-384106922 {
+  top: 1090px !important;
+}
+
+#wsb-element-384111075 {
+  top: 1095px !important;
+}
+
+#wsb-element-384128488 {
+  top: 1350px !important;
+}
+
+#wsb-element-384128487 {
+  top: 1349px !important;
+}
